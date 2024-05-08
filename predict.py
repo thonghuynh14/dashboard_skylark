@@ -9,7 +9,7 @@ import json
 def app():
     # st.header('Dự đoán')
     # Load models and scalers
-    model = joblib.load('D:\Decisions_tree\desicion_tree.joblib')
+    model = joblib.load('D:\Decisions_tree\web\desicion_tree.joblib')
 
     # Creating two columns
     # col1, col2 = st.columns(2)
